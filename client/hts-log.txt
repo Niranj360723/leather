@@ -1,0 +1,40 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 16 Jan 2019 15:30:26 at http://demo.designshopify.com/html_modez/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo.designshopify.com/html_modez/index.html -O1 "C:\My Web Sites\demo20" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:34:13	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/page-wishlist.html (from demo.designshopify.com/html_modez/index.html)
+15:34:45	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/90x90.jpg (from demo.designshopify.com/html_modez/index.html)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.eot (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.eot? (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.woff2 (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.woff (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.ttf (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/fonts/glyphicons-halflings-regular.svg (from demo.designshopify.com/html_modez/assets/stylesheets/bootstrap.min.css)
+15:34:46	Warning: 	File not parsed, looks like binary: demo.designshopify.com/html_modez/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/stylesheets/grabbing.png (from demo.designshopify.com/html_modez/assets/stylesheets/owl.carousel.css)
+15:34:47	Error: 	"Not Found" (404) at link cdn.shopify.com/s/files/1/1786/6753/t/2/assets/fancybox_loading.gif?10928107934412339507 (from demo.designshopify.com/html_modez/assets/stylesheets/cs-modez-base.global.css)
+15:34:47	Error: 	"Not Found" (404) at link cdn.shopify.com/s/files/1/1786/6753/t/2/assets/blank.gif?10928107934412339507 (from demo.designshopify.com/html_modez/assets/stylesheets/cs-modez-base.global.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/fancybox_sprite@2x.png (from demo.designshopify.com/html_modez/assets/stylesheets/cs-modez-base.global.css)
+15:34:47	Error: 	"Not Found" (404) at link cdn.shopify.com/s/files/1/1786/6753/t/2/assets/fancybox_loading@2x.gif?10928107934412339507 (from demo.designshopify.com/html_modez/assets/stylesheets/cs-modez-base.global.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/stylesheets/ajax-loader.gif (from demo.designshopify.com/html_modez/assets/stylesheets/cs-modez-base.styles.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/blank.gif (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/camera-loader.gif (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/camera_skins.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay1.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay2.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay3.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay4.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay5.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay6.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay7.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay8.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay9.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:47	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/assets/images/patterns/overlay10.png (from demo.designshopify.com/html_modez/assets/stylesheets/camera.css)
+15:34:54	Error: 	"Not Found" (404) at link demo.designshopify.com/html_modez/product_files/soldout.png (from demo.designshopify.com/html_modez/product.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 28 seconds : 160 links scanned, 131 files written (7468986 bytes overall) [6783334 bytes received at 25310 bytes/sec], 871697 bytes transferred using HTTP compression in 17 files, ratio 12%, 1.1 requests per connection
+(28 errors, 1 warnings, 0 messages)

@@ -1,0 +1,160 @@
+<?php
+include("header.php");
+?>
+			<div class="fix-sticky"></div>	
+			<style>
+				.main-header {
+				  background-color: #000000;
+				}
+
+				.main-navigation {
+				  background-color: #ffffff;
+				}
+			</style>
+			<script>
+			  function addaffix(scr){
+				if($(window).innerWidth() >= 992){
+				  if(scr > 141){
+					if(!$('.header-wrapper').hasClass('affix')){
+					  $('.header-wrapper').addClass('affix').addClass('fadeInDown animated');
+					}
+				  }
+				  else{
+					if($('.header-wrapper').hasClass('affix')){          
+					  $('.header-wrapper').removeClass('affix').removeClass('fadeInDown animated');
+					}
+				  }
+				}
+				else $('.header-wrapper').removeClass('fadeInDown affix');
+			  }
+			  $(window).scroll(function() {
+				var scrollTop = $(this).scrollTop();
+				addaffix(scrollTop);
+			  });
+			  $( window ).resize(function() {
+				var scrollTop = $(this).scrollTop();
+				addaffix(scrollTop);
+			  });
+			</script>
+		</div>
+  
+		<div class="page-container" id="PageContainer">
+			<main class="main-content" id="MainContent" role="main">
+				<section class="list-collection-heading">
+					<div class="list-collection-heading-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="list-collection-heading-inner">
+									<h1 class="page-title"><span>Collections Listing</span></h1>
+									<div class="breadcrumb clearfix">
+										<span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="index.html" title="Modez - HTML Template" itemprop="url"><span itemprop="title">Home</span></a></span>
+										<span class="arrow-space">/</span>
+										<span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="collection-listing.html" title="List Collection"><span itemprop="title">Collection Listing</span></a></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="list-collection-content">
+					<div class="list-collections-wrapper">
+						<div class="container">
+							<div class="row products masonry">
+								<div class="collections_product_group">
+									<div class="collections_product_inner">
+										<div class="product">
+											<div class="image">
+												<a href="collection.html">
+												<img src="assets/images/listcol1_270x370.jpg" alt="Accessories">
+												</a>
+												<div class="hover_button">
+													<a href="collection.html">
+													View all </a>
+												</div>
+											</div>
+	<?php
+	$sql = "SELECT * from feedback f, user u 
+		where f.user_id=u.user_id";
+	
+    $result=mysqli_query($conn,$sql);
+	while($row = mysqli_fetch_array($result))	
+	{
+	$id=$row['feedback_id'];
+	?>
+											<div class="details">
+												<a href="collection.html" class="clearfix">
+												<h4 class="title"><?php echo $row['description'] ?></h4>
+												<h4 class="title"><?php echo $row['user_name'] ?></h4>
+												<h4 class="title"><?php echo $row['feedback_date'] ?></h4>
+												
+												</a>
+											</div>
+	<?php
+	}
+	?>
+	
+										</div>
+										<div class="product">
+											<div class="image">
+												<a href="collection.html">
+												<img src="assets/images/listcol2_270x370.jpg" alt="Electronics">
+												</a>
+												<div class="hover_button">
+													<a href="collection.html">
+													View all </a>
+												</div>
+											</div>
+											<div class="details">
+												<a href="collection.html" class="clearfix">
+												<h4 class="title">Electronics</h4>
+												<span class="price">7 products</span>
+												</a>
+											</div>
+										</div>
+										<div class="product">
+											<div class="image">
+												<a href="collection.html">
+												<img src="assets/images/listcol3_270x370.jpg" alt="Furniture">
+												</a>
+												<div class="hover_button">
+													<a href="collection.html">
+													View all </a>
+												</div>
+											</div>
+											<div class="details">
+												<a href="collection.html" class="clearfix">
+												<h4 class="title">Furniture</h4>
+												<span class="price">9 products</span>
+												</a>
+											</div>
+										</div>
+										<div style="clear:both;">
+										</div>
+										<div class="product">
+											<div class="image">
+												<a href="collection.html">
+												<img src="assets/images/listcol4_270x370.jpg" alt="T-shirts">
+												</a>
+												<div class="hover_button">
+													<a href="collection.html">
+													View all </a>
+												</div>
+											</div>
+											<div class="details">
+												<a href="collection.html" class="clearfix">
+												<h4 class="title">T-shirts</h4>
+												<span class="price">6 products</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+<?php
+include("footer.php");
+?>
+    

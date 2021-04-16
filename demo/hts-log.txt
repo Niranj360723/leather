@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 21 Dec 2018 16:51:31 at http://phantom-themes.com/flatify/theme/templates/admin1/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://phantom-themes.com/flatify/theme/templates/admin1/index.html -O1 "C:\My Web Sites\demo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:55:52	Warning: 	file not stored in cache due to bogus state (broken size, expected 1858681 got 617595): phantom-themes.com/flatify/theme/assets/images/bg/registerbg.png
+16:56:33	Warning: 	file not stored in cache due to bogus state (broken size, expected 1051643 got 943655): phantom-themes.com/flatify/theme/assets/images/bg/loginbg.png
+17:03:18	Warning: 	Retry after error -4 (Incorrect length (943655 Bytes, 1051643 expected)) at link phantom-themes.com/flatify/theme/assets/images/bg/loginbg.png (from phantom-themes.com/flatify/theme/assets/css/flatifytheme.min.css)
+17:03:32	Warning: 	file not stored in cache due to bogus state (broken size, expected 986230 got 760077): phantom-themes.com/flatify/theme/assets/images/gallery/image9.png
+17:03:32	Warning: 	Retry after error -4 (Incorrect length (617595 Bytes, 1858681 expected)) at link phantom-themes.com/flatify/theme/assets/images/bg/registerbg.png (from phantom-themes.com/flatify/theme/assets/css/flatifytheme.min.css)
+17:03:36	Error: 	"Not Found" (404) at link phantom-themes.com/flatify/theme/assets/images/login-bg.png (from phantom-themes.com/flatify/theme/assets/css/flatifytheme.min.css)
+17:03:36	Error: 	"Not Found" (404) at link phantom-themes.com/flatify/theme/templates/admin1/inbox.html (from phantom-themes.com/flatify/theme/templates/admin1/email.html)
+17:04:11	Warning: 	Retry after error -4 (Incorrect length (580371 Bytes, 752038 expected)) at link phantom-themes.com/flatify/theme/assets/images/gallery/image7.png (from phantom-themes.com/flatify/theme/templates/admin1/gallery.html)
+17:04:11	Warning: 	Retry after error -4 (Incorrect length (760077 Bytes, 986230 expected)) at link phantom-themes.com/flatify/theme/assets/images/gallery/image9.png (from phantom-themes.com/flatify/theme/templates/admin1/gallery.html)
+17:05:16	Error: 	"Not Found" (404) at link phantom-themes.com/flatify/theme/assets/plugins/jstree/themes/default/40px.png (from phantom-themes.com/flatify/theme/assets/plugins/jstree/themes/default/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 44 seconds : 172 links scanned, 164 files written (20377137 bytes overall) [19160337 bytes received at 23252 bytes/sec], 1435982 bytes transferred using HTTP compression in 36 files, ratio 11%, 2.3 requests per connection
+(3 errors, 7 warnings, 0 messages)
